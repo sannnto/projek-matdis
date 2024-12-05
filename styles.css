@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-image: url(shroekeeperhd.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.container {
+    max-width: 600px; 
+    margin: auto; 
+    background: rgba(255, 255, 255, 0.362);
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 10px rgba(0, 0, 0, 0.192); 
+}
+
+
+h1 {
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00000084;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0f51cbb9;
+}
+
